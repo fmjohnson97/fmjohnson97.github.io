@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About Me
-date: 
+date: 2020-9-10
 description:
 img:   # Add image post (optional)
 fig-caption:  # Add figcaption (optional)
