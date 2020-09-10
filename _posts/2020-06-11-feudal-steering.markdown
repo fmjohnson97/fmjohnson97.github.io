@@ -3,7 +3,7 @@ layout: post
 title: Fuedal Steering - Hierarchical Learning for Steering Angle Prediction
 author1: Faith Johnson
 author2: Kristin Dana
-date: 2020-06-11 01:00:00 +0300
+date: 2020-06-11 12:00:00 -0500
 description: CVPR WAD Paper
 img:  feudalSteeringTeaser.gif # Add image post (optional)
 fig-caption:   # Add figcaption (optional)
