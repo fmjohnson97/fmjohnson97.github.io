@@ -22,7 +22,7 @@ We consider the challenge of automated steering angle prediction for self drivin
 ## Network
 ![Network]({{site.baseurl}}/assets/img/Sub_Angle_Diagram.png)
 
-This is our Feudal Steering network. The overall network is comprised of a manager network and a worker network. The worker network (expanded in the red box) acts as the steering angle prediction network. The input to the manager network is a sequence of the previous m predicted steering angles, [a<sub>n−1−m<\sub>,a<sub>n−1−(m−1)<\sub>,...,a<sub>n−1<\sub>]. The input to the worker network is a sequence of m frames, [i<sub>n−m<\sub>, i<sub>n−(m−1)<\sub>, ..., i<sub>n<\sub>], a goal, g, obtained from the manager network, and the previous steering angle, an−1. The yellow box represents the ELU (exponential linear unit) and group normalization step in the pipeline.
+This is our Feudal Steering network. The overall network is comprised of a manager network and a worker network. The worker network (expanded in the red box) acts as the steering angle prediction network. The input to the manager network is a sequence of the previous m predicted steering angles, [a<sub>n−1−m</sub>,a<sub>n−1−(m−1)</sub>,...,a<sub>n−1</sub>]. The input to the worker network is a sequence of m frames, [i<sub>n−m</sub>, i<sub>n−(m−1)</sub>, ..., i<sub>n</sub>], a goal, g, obtained from the manager network, and the previous steering angle, an−1. The yellow box represents the ELU (exponential linear unit) and group normalization step in the pipeline.
 
 
 ## t-SNE Embedding as Subroutine ID
