@@ -1,9 +1,10 @@
 ---
 layout: post
-title: How I Rest From Work
-date: 2017-09-12 13:32:20 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: i-rest.jpg # Add image post (optional)
+title: Fuedal Steering: Hierarchical Learning for Steering Angle Prediction
+date: 2020-06-11 23:17:55 -0500
+description: We consider the challenge of automated steering angle prediction for self driving cars using egocentric road im- ages. In this work, we explore the use of feudal networks, used in hierarchical reinforcement learning (HRL), to de- vise a vehicle agent to predict steering angles from first person, dash-cam images of the Udacity driving dataset.
+
+img: teaserFigure.eps # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Holidays, Hawaii]
 ---
