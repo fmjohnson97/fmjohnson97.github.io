@@ -2,8 +2,8 @@ title: Faith Johnson
 description: > # this means to ignore newlines until "baseurl:"
   Herein lies the work of Faith Johnson, a graduate student at Rutgers Univeristy studying computer engineering with a focus on computer vision. 
 permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://fmjohnson97.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fmjohnson97.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
