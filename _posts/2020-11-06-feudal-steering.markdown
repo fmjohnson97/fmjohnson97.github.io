@@ -35,14 +35,14 @@ The left column of images are a subset of centroid frames from the previous imag
 
 
 ## Steering Angle Prediction Results
-![teaserResults]({{site.baseurl}}/assets/img/teaserFigure.png){:height="70%" width="70%"}
+![teaserResults]({{site.baseurl}}/assets/img/teaserFigure.png){:height="80%" width="70%"}
 
 Four frames from the Udacity dataset are shown with their corresponding ground truth (blue) and predicted (orange) steering angles using our Feudal Steering network. The orientation of the lines corresponds to the egocentric steering angle. Our model predicts steering angles within 2.67 degrees of the ground truth angle.
 
 Angle (left) and subroutine id (right) prediction results on the Udacity dataset obtained using our Feudal Steering network are shown below. The real angle is pictured in blue and the predicted angle is in orange. The subroutine ids are plotted alone. Notice that the subroutine id’s behavior mimics the real angle behavior, but differs in scale.
 
-![angResults]({{site.baseurl}}/assets/img/angleCompNoDots_1800.png){:height="70%" width="70%"}
-![subIDResults]({{site.baseurl}}/assets/img/subIDNoDots_1800.png){:height="70%" width="70%"}
+![angResults]({{site.baseurl}}/assets/img/angleCompNoDots_1800.png){:height="60%" width="60%"}
+![subIDResults]({{site.baseurl}}/assets/img/subIDNoDots_1800.png){:height="60%" width="60%"}
 
 
 ## Paper
