@@ -8,4 +8,14 @@ fig-caption:  # Add figcaption (optional)
 tags: [Resume, CV]
 ---
 
-This is a test to see if the site has updated yet. 
+# Brief Bio and link to CV 
+talk through all the things you've done in reverse chronological order (for the past 5 years ish or just the highlights)
+
+# Research and Advisors
+put link to publications page in here with your projects
+link to other author's pages 
+
+# Internships/Projects/Other/Research Groups
+
+
+# Education and Relevent Courses
