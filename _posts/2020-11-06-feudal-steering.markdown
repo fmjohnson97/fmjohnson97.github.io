@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Fuedal Steering - Hierarchical Learning for Steering Angle Prediction
-date: 2020-11-06 23:17:55 -0500
-description: We consider the challenge of automated steering angle prediction for self driving cars using egocentric road im- ages. In this work, we explore the use of feudal networks, used in hierarchical reinforcement learning (HRL), to de- vise a vehicle agent to predict steering angles from first person, dash-cam images of the Udacity driving dataset.
-
-img: 9-teaser.gif # Add image post (optional)
+date: 2020-11-06 00:00:00 +0300
+description: CVPR WAD Paper
+img: teaserFigure.png # Add image post (optional)
 fig-caption: Results of our Feudal Steering network on example driving scenes. # Add figcaption (optional)
 tags: [Feudal Networks, Steering Angle Prediction]
 ---
