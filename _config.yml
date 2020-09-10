@@ -9,7 +9,8 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Faith Johnson # add your name
 author-img: author.jpeg # add your photo
-about-author: I am a graduate student in Rutgers University ECE department. My main focus is computer vision and machine learning. # add description
+about-author: I am a second year Ph.D. student studying under Professor Kristin Dana in the Rutgers University ECE department. My main focus is the intersection of computer vision, machine learning, and robotics.
+# add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: fmjohnson97 # add your Github handle
