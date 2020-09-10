@@ -20,22 +20,27 @@ We consider the challenge of automated steering angle prediction for self drivin
 
 ## Network
 ![Network]({{site.baseurl}}/assets/img/Sub_Angle_Diagram.png)
+
 This is our Feudal Steering network. The overall network is comprised of a manager network and a worker network. The worker network (expanded in the red box) acts as the steering angle prediction network. The input to the manager network is a sequence of the previous m predicted steering angles, [an−1−m,an−1−(m−1),...,an−1]. The input to the worker network is a sequence of m frames, [in−m, in−(m−1), ..., in], a goal, g, obtained from the manager network, and the previous steering angle, an−1. The yellow box represents the ELU (exponential linear unit) and group normalization step in the pipeline.
 
 
 ## t-SNE Embedding as Subroutine ID
 ![tsneMegaPhoto]({{site.baseurl}}/assets/img/TSNE_Multi_photo_example.jpeg)
+
 Example training images are shown with their corresponding t-SNE centroids. Notice the bottom right of the figure contains sharp right turns. Moving upwards and to the left, the right turn gets less sharp until the vehicle begins to go straight. Eventually this straight behavior starts to become a left turn until the vehicle is making sharp left turns in the upper left hand corner.
 
 ![tsneVerification]({{site.baseurl}}/assets/img/clusterVerification.png)
+
 The left column of images are a subset of centroid frames from the previous image. The images to the right of each centroid frame come from different, adjacent points in the corresponding cluster for each centroid. Notice that the points in each cluster display similar behavior as their respective centroids.
 
 
 ## Steering Angle Prediction Results
 ![teaserResults]({{site.baseurl}}/assets/img/teaserFigure.png){:height="50%" width="50%"}
+
 Four frames from the Udacity dataset are shown with their corresponding ground truth (blue) and predicted (orange) steering angles using our Feudal Steering network. The orientation of the lines corresponds to the egocentric steering angle. Our model predicts steering angles within 2.67 degrees of the ground truth angle.
 
 Angle (top) and subroutine id (bottom) prediction results on the Udacity dataset obtained using our Feudal Steering network are shown below. The real angle is pictured in blue and the predicted angle is in orange. The subroutine ids are plotted alone. Notice that the subroutine id’s behavior mimics the real angle behavior, but differs in scale.
+
 ![angResults]({{site.baseurl}}/assets/img/angleCompNoDots_1800.png){:height="50%" width="50%"}
 
 ![subIDResults]({{site.baseurl}}/assets/img/subIDNoDots_1800.png){:height="50%" width="50%"}
