@@ -46,7 +46,9 @@ Angle (left) and subroutine id (right) prediction results on the Udacity dataset
 ![subIDResults]({{site.baseurl}}/assets/img/subIDNoDots_1800.png){:height="60%" width="60%"}
 
 
-## View our paper [here](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w60/Johnson_Feudal_Steering_Hierarchical_Learning_for_Steering_Angle_Prediction_CVPRW_2020_paper.pdf) [[bibtex]](https://scholar.googleusercontent.com/scholar.bib?q=info:3Vxt5LlCIeoJ:scholar.google.com/&output=citation&scisdr=CgXECYjRELStg6-3l1k:AAGBfm0AAAAAX1qyj1m_7i2_C2f2r11j29KnRGD3bSc4&scisig=AAGBfm0AAAAAX1qyj79O9ej7hZZFXnx8i00qgqc3t9_D&scisf=4&ct=citation&cd=-1&hl=en)
+## View our paper [here](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w60/Johnson_Feudal_Steering_Hierarchical_Learning_for_Steering_Angle_Prediction_CVPRW_2020_paper.pdf) 
+
+[[bibtex]](https://scholar.googleusercontent.com/scholar.bib?q=info:3Vxt5LlCIeoJ:scholar.google.com/&output=citation&scisdr=CgXECYjRELStg6-3l1k:AAGBfm0AAAAAX1qyj1m_7i2_C2f2r11j29KnRGD3bSc4&scisig=AAGBfm0AAAAAX1qyj79O9ej7hZZFXnx8i00qgqc3t9_D&scisf=4&ct=citation&cd=-1&hl=en)
 
 ## Acknowledgements
 We would like to acknowledge Lockheed Martin for their support during this project. We also thank Sanipa Arnold, Jeff Cammerata, and Matthew Purri for their suggestions and comments.
