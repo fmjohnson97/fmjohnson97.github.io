@@ -3,8 +3,8 @@ layout: post
 title: Fuedal Steering - Hierarchical Learning for Steering Angle Prediction
 date: 2020-06-11 00:00:00 +0300
 description: CVPR WAD Paper
-img:  # Add image post (optional)
-fig-caption:  # Add figcaption (optional)
+img:  9-teaser.gif # Add image post (optional)
+fig-caption:  Results for our Feudal Steering network on example driving scenes from the Udacity dataset. # Add figcaption (optional)
 tags: [Feudal Networks, Steering Angle Prediction]
 ---
 
@@ -13,5 +13,5 @@ We consider the challenge of automated steering angle prediction for self drivin
 
 ## Results
 ![Results]({{site.baseurl}}/assets/img/teaserFigure.png)
-Results of our Feudal Steering network on example driving scenes.
+Results for our Feudal Steering network on example driving scenes from the Udacity dataset.
 
