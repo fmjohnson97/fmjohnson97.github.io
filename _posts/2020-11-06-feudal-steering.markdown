@@ -15,19 +15,24 @@ We consider the challenge of automated steering angle prediction for self drivin
 ## Video
 {% include youtubePlayer.html id=page.youtubeId %}
 
-https://www.youtube.com/embed/b0_5JLlgzA4
 
 ## Network
+![Network]({{site.baseurl}}/assets/img/Sub_Angle_Diagram.png)
 
 
 ## t-SNE Embedding as Subroutine ID
+![tsneMegaPhoto]({{site.baseurl}}/assets/img/TSNE_Multi_photo_example.png)
 
+![tsneVerification]({{site.baseurl}}/assets/img/clusterVerification.png)
 
-## Results
-![Results]({{site.baseurl}}/assets/img/teaserFigure.png)
+## Steering Angle Prediction Results
+![teaserResults]({{site.baseurl}}/assets/img/teaserFigure.png)
 Results for our Feudal Steering network on example driving scenes from the Udacity dataset.
 
-That one image of the graph of angles sequentially with the subroutines next to it
+![angResults]({{site.baseurl}}/assets/img/angleCompNoDots_1800.png)
+
+![subIDResults]({{site.baseurl}}/assets/img/subIDNoDots_1800.png)
+
 
 ## Paper
 
