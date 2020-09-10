@@ -5,7 +5,7 @@ date: 2020-06-11 00:00:00 +0300
 description: CVPR WAD Paper
 img:  feudalSteeringTeaser.gif # Add image post (optional)
 fig-caption:  Results for our Feudal Steering network on example driving scenes from the Udacity dataset. # Add figcaption (optional)
-youtubeId: https://www.youtube.com/embed/b0_5JLlgzA4
+youtubeId: b0_5JLlgzA4
 tags: [Feudal Networks, Steering Angle Prediction]
 ---
 
