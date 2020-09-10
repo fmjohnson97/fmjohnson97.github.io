@@ -21,17 +21,17 @@ We consider the challenge of automated steering angle prediction for self drivin
 
 
 ## t-SNE Embedding as Subroutine ID
-![tsneMegaPhoto]({{site.baseurl}}/assets/img/TSNE_Multi_photo_example.png)
+![tsneMegaPhoto]({{site.baseurl}}/assets/img/TSNE_Multi_photo_example.jpeg)
 
 ![tsneVerification]({{site.baseurl}}/assets/img/clusterVerification.png)
 
 ## Steering Angle Prediction Results
-![teaserResults]({{site.baseurl}}/assets/img/teaserFigure.png)
+![teaserResults]({{site.baseurl}}/assets/img/teaserFigure.png)<!-- .element height="50%" width="50%" -->
 Results for our Feudal Steering network on example driving scenes from the Udacity dataset.
 
-![angResults]({{site.baseurl}}/assets/img/angleCompNoDots_1800.png)
+![angResults]({{site.baseurl}}/assets/img/angleCompNoDots_1800.png)<!-- .element height="50%" width="50%" -->
 
-![subIDResults]({{site.baseurl}}/assets/img/subIDNoDots_1800.png)
+![subIDResults]({{site.baseurl}}/assets/img/subIDNoDots_1800.png)<!-- .element height="50%" width="50%" -->
 
 
 ## Paper
