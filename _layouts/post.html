@@ -20,7 +20,7 @@ layout: main
         <div class="inline">
           <h2 class="page-author">{{page.author1}}&ensp; <small> and </small> &ensp;{{page.author2}}</h2>
         </div>
-        <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+        <div class="page-date"><span>{{page.date | date: '%b %d, %Y'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       {{content | markdownify}}
       <div class="page-footer">
