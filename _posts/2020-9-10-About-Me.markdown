@@ -18,7 +18,7 @@ My next research focus deals with human-robot interaction and robot navigation w
 
 My previous work deals with autonomous vehicle steering angle prediction. We created a network, [Feudal Steering](https://fmjohnson97.github.io/feudal-steering/), that uses hierarchical networks to exploit the temporal abstraction inherent in driving tasks to make predicting steering angles from dash-cam images easier. 
 
-# Internships/Projects/Other/Research Groups
+# Other Research Groups
 I have had the opportunity to work on several different projects with other teams.
 
 At [SRI International](https://www.sri.com/computer-vision/) in 2020, I created baseline agents for the [DARPA Machine Common Sense](https://www.darpa.mil/program/machine-common-sense) project. 
