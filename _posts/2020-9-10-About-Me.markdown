@@ -22,8 +22,3 @@ My previous work deals with autonomous vehicle steering angle prediction. We cre
 I have had the opportunity to work on several different projects with other teams.
 
 At [SRI International](https://www.sri.com/computer-vision/) in 2020, I created baseline agents for the [DARPA Machine Common Sense](https://www.darpa.mil/program/machine-common-sense) project. 
-
-
-
-
-# Education and Relevent Courses
