@@ -8,7 +8,8 @@ fig-caption:  # Add figcaption (optional)
 tags: [Resume, CV]
 ---
 
-# Brief Bio and link to CV 
+# A Brief Bio, my [CV]({{site.baseurl}}/assets/files/FaithJohnsonCV.pdf), and my [Resume]({{site.baseurl}}/assets/files/Faith Johnson Official Resume.pdf)
+
 talk through all the things you've done in reverse chronological order (for the past 5 years ish or just the highlights)
 
 # Research and Advisors
