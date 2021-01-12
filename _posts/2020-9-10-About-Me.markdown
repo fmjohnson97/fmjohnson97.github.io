@@ -10,7 +10,7 @@ tags: [Resume, CV]
 
 # You can find my CV [here](https://fmjohnson97.github.io/assets/files/FaithJohnsonCV.pdf) and my résumé [here](https://fmjohnson97.github.io/assets/files/Faith_Johnson_Official_Resume.pdf)
 
-I am a second year Ph.D. student at Rutgers Univeristy in the ECE department, where I focus on the intersection of computer vision, machine learning, and robotics. My advisor is [Professor Kristin Dana](https://www.ece.rutgers.edu/~kdana/). Before that, I got by bachelor's degree in Electrical and Computer Engineering also from Rutgers University. 
+I am a second year Ph.D. student at Rutgers Univeristy in the ECE department, where I focus on the intersection of computer vision, machine learning, and robotics. My advisor is [Professor Kristin Dana](https://www.ece.rutgers.edu/~kdana/). Before that, I got my bachelor's degree in Electrical and Computer Engineering also from Rutgers University. 
 
 
 # Research
