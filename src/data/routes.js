@@ -1,16 +1,20 @@
 const routes = [
   {
     index: true,
-    label: "Michael D'Angelo",
+    label: 'Faith Johnson',
     path: '/',
-  },
-  {
-    label: 'About',
-    path: '/about',
   },
   {
     label: 'Resume',
     path: '/resume',
+  },
+  {
+    label: 'Publications',
+    path: '/publications',
+  },
+  {
+    label: 'Presentations',
+    path: '/presentations',
   },
   {
     label: 'Projects',

@@ -5,27 +5,68 @@ import Main from '../layouts/Main';
 
 const Index = () => (
   <Main
-    description={"Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
-    + 'co-founder and CTO of Arthena, and YC Alumni.'}
+    description={"Faith Johnson's personal website."}
   >
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/">About this site</Link></h2>
-          <p>
-            A beautiful, responsive, statically-generated,
-            react application written with modern Javascript.
-          </p>
+          <h2 data-testid="heading"><Link to="/">About Me</Link></h2>
+          <p> </p>
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
-        <Link to="/resume">resume</Link>, {' '}
-        <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
+      <p>
+        I am a third year Ph.D. student at Rutgers Univeristy in the ECE department,
+        where I focus on the intersection of computer vision, machine learning, robotics,
+        and their impact on society. I&apos;m an NSF Fellow on the
+        <a href="https://robotics.rutgers.edu/"> SOCRATES NRT</a>.
+        My advisor is <a href="https://www.ece.rutgers.edu/~kdana/"> Professor Kristin Dana</a>.
+        Before that, I got my bachelor&apos;s degree in Electrical and Computer
+        Engineering also from Rutgers University.
       </p>
-      <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
+      <h3> Research </h3>
+      <p>
+        My current research focus deals with socially cognizant robotic navigation,
+        social behavior characterization, and human-robot interaction under the
+        <a href="https://robotics.rutgers.edu/"> SOCRATES NSF NRT</a>. Stay tuned
+        for more details!
+      </p>
+      <p>
+        My previous work deals with autonomous vehicle steering angle prediction.
+        We created a network,
+        <a href="https://fmjohnson97.github.io/feudal-steering/"> Feudal Steering</a>,
+        that uses hierarchical networks to exploit the temporal abstraction inherent
+        in driving tasks to make predicting steering angles from dash-cam images easier.
+      </p>
+      <h3> Internships </h3>
+      <p>
+        I&apos;ve had the opportunity to work on several different
+        projects with other teams. At <a href="https://www.sri.com/computer-vision/"> SRI International </a>
+        in 2020, I created baseline agents for the
+        <a href="https://www.darpa.mil/program/machine-common-sense"> DARPA Machine Common Sense </a>
+        project.
+      </p>
+      <p>
+        At <a href="https://www.nvidia.com/en-us/research/#research-area"> Nvidia </a> in 2021,
+        I created an oracle network to produce semantic segmentation pseudo-labels for
+        previously unseen data to reduce overall datatset labeling costs.
+      </p>
+      <h3> Other Projects </h3>
+      <p>
+        At Rutgers, I started the
+        <a href="https://fmjohnson97.github.io/n2eRobotics/"> N2E Robotics Club </a>
+        where students teach hour long modules on robotics topics (computer vision, control
+        algos, ML, 3D printing, CAD, ROS, etc) to each other in a non-intimidating
+        environment from the ground up. The goal is to tear down the barrier to entry
+        for robotics so that it can be accessible for more people.
+      </p>
+      <h3> Teaching </h3>
+      <p>
+        I&apos;ve TA-ed for the following courses in the Rutgers ECE department:
+        <ul>
+          <li>Professionalism and Ethics - S&apos;20</li>
+          <li>Probability and Random Processes - S&apos;21</li>
+        </ul>
+      </p>
     </article>
   </Main>
 );
