@@ -46,13 +46,54 @@ const positions = [
     ],
   },
   {
-    company: 'SRI International',
-    position: 'Computer Vision Intern',
-    link: 'https://www.sri.com/computer-vision/',
-    daterange: 'May 2020 - August 2020',
+    company: 'Rutgers Honors College Maker Space',
+    position: 'Manager',
+    link: 'https://honorscollege.rutgers.edu/features/new-makerspace-honors-college',
+    daterange: 'August 2016 - May 2019',
     points: [
-      'Developed baseline agents for the Darpa Machine Common Sense project',
-      'Created an agent that uses graph networks and abductive reasoning to motivate environment exploration',
+      'Assembled and mastered the use of an X-carve engraver, 3-D printers, vinyl cutter, and sewing machine',
+      'Created a system for keeping track of 200+ inventory items when they are checked out',
+      'Assisted students and faculty in the use of the machines and the creation of projects',
+    ],
+  },
+  {
+    company: 'Rutgers University',
+    position: 'Astronomy Research Assistant',
+    link: '',
+    daterange: 'June 2016 - Jan 2019',
+    points: [
+      'Studied the role of dark matter and HII regions in galaxy formation',
+      'Used Python to analyze and manipulate galaxy formation simulation data',
+    ],
+  },
+  {
+    company: 'Bank of America',
+    position: 'Technology Analyst Intern',
+    link: 'https://campus.bankofamerica.com/teams.html',
+    daterange: 'June 2018 - August 2018',
+    points: [
+      'Used machine learning principles and sci-kit learn in python to create a predictive model for stock market trades',
+      'Created a pipeline for data cleaning and prediction result interpretation in python',
+    ],
+  },
+  {
+    company: 'Bank of America',
+    position: 'Technology Analyst Intern',
+    link: 'https://campus.bankofamerica.com/teams.html',
+    daterange: 'June 2017 - August 2017',
+    points: [
+      'Created a regression test for their trade reporting system using python',
+      'Followed the regression test through the SDLC including analysis and release',
+    ],
+  },
+  {
+    company: 'Bank of America',
+    position: 'Front End Development Intern',
+    link: 'https://campus.bankofamerica.com/teams.html',
+    daterange: 'June 2015 - August 2015',
+    points: [
+      'Modified 2 GUIs for an in-house market analytics program using ASP.Net, C++, HTML, and Javascript',
+      'Followed 3 software projects through the SDLC',
     ],
   },
 ];
