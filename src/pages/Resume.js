@@ -18,8 +18,8 @@ import { skills, categories } from '../data/resume/skills';
 
 const sections = [
   'Education',
-  'Technical Experience',
-  'Leadership Experience',
+  'Experience',
+  'Leadership',
   'Skills',
   'Courses',
   'References',

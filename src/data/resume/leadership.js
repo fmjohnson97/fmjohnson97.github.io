@@ -1,6 +1,6 @@
 // TODO: Correct Experience,
 
-const positions = [
+const leadership = [
   {
     company: 'Rutgers University',
     position: 'Novice 2 Expert Club Founder',
@@ -43,4 +43,4 @@ const positions = [
   },
 ];
 
-export default positions;
+export default leadership;
