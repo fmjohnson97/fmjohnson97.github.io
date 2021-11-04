@@ -13,7 +13,7 @@ const Contact = () => (
     <article className="post" id="contact">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/feudalsteering">Feudal Steering</Link></h2>
+          <h2 data-testid="heading"><Link to="/feudalsteering">Feudal Steering: Hierarchical Learning for Steering Angle Prediction</Link></h2>
           <p> <a href="https://openaccess.thecvf.com/content_CVPRW_2020/papers/w60/Johnson_Feudal_Steering_Hierarchical_Learning_for_Steering_Angle_Prediction_CVPRW_2020_paper.pdf">Click here </a>
             to read our paper.
           </p>
