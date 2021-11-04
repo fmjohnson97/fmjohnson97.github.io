@@ -17,10 +17,6 @@ const Contact = () => (
           <p> <a href="https://openaccess.thecvf.com/content_CVPRW_2020/papers/w60/Johnson_Feudal_Steering_Hierarchical_Learning_for_Steering_Angle_Prediction_CVPRW_2020_paper.pdf">Click here </a>
             to read our paper.
           </p>
-          <p>
-            <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:3Vxt5LlCIeoJ:scholar.google.com/&output=citation&scisdr=CgXECYjRELStg6-3l1k:AAGBfm0AAAAAX1qyj1m_7i2_C2f2r11j29KnRGD3bSc4&scisig=AAGBfm0AAAAAX1qyj79O9ej7hZZFXnx8i00qgqc3t9_D&scisf=4&ct=citation&cd=-1&hl=en">Click here </a>
-            for the bibtex.
-          </p>
         </div>
       </header>
       <h1> Abstract </h1>
