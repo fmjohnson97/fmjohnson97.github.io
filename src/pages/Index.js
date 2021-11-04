@@ -53,7 +53,7 @@ const Index = () => (
       <h3> Other Projects </h3>
       <p>
         At Rutgers, I started the
-        <a href="https://fmjohnson97.github.io/n2eRobotics/"> N2E Robotics Club </a>
+        <a href="https://robotics.rutgers.edu/n2e-robotics/"> N2E Robotics Club </a>
         where students teach hour long modules on robotics topics (computer vision, control
         algos, ML, 3D printing, CAD, ROS, etc) to each other in a non-intimidating
         environment from the ground up. The goal is to tear down the barrier to entry
