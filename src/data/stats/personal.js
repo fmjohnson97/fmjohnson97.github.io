@@ -5,10 +5,9 @@ const Age = () => {
 
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
-    const birthTime = new Date('1990-02-05T09:24:00');
+    const birthTime = new Date('1997-05-20T10:30:00');
     setAge(((Date.now() - birthTime) / divisor).toFixed(11));
   };
-
   useEffect(() => {
     const timer = setInterval(() => tick(), 25);
     return () => {
@@ -18,6 +17,23 @@ const Age = () => {
   return <>{age}</>;
 };
 
+const Graduation = () => {
+  const [grad, setGrad] = useState();
+
+  const tickGrad = () => {
+    const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
+    const gradTime = new Date('2024-05-15T10:30:00');
+    setGrad(((gradTime - Date.now()) / divisor).toFixed(11));
+  };
+  useEffect(() => {
+    const timerGrad = setInterval(() => tickGrad(), 25);
+    return () => {
+      clearInterval(timerGrad);
+    };
+  }, []);
+  return <>{grad}</>;
+};
+
 const data = [
   {
     key: 'age',
@@ -25,16 +41,20 @@ const data = [
     value: <Age />,
   },
   {
-    key: 'countries',
-    label: 'Countries visited',
-    value: 53,
-    link:
-      'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
+    key: 'graduation',
+    label: 'Time til Graduation in Years',
+    value: <Graduation />,
   },
   {
     key: 'location',
     label: 'Current city',
-    value: 'New York, NY',
+    value: 'New Brunswick, NJ',
+  },
+  {
+    key: 'countries',
+    label: 'Countries visited',
+    value: 9,
+    link: '',
   },
 ];
 
