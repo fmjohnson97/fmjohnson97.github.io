@@ -27,6 +27,8 @@ const About = () => (
           <p>(in about {count} words)</p>
         </div>
       </header>
+      <h1>Oral Presentation</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nUbhBZTb3j4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen> </iframe>
       <ReactMarkdown
         source={markdown}
         renderers={{
