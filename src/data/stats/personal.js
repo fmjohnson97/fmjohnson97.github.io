@@ -37,7 +37,7 @@ const Graduation = () => {
 const data = [
   {
     key: 'age',
-    label: 'Current age',
+    label: 'Current Age',
     value: <Age />,
   },
   {
@@ -47,12 +47,12 @@ const data = [
   },
   {
     key: 'location',
-    label: 'Current city',
+    label: 'Current City',
     value: 'New Brunswick, NJ',
   },
   {
     key: 'countries',
-    label: 'Countries visited',
+    label: 'Countries Visited',
     value: 9,
     link: '',
   },
