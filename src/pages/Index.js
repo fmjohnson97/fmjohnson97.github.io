@@ -50,15 +50,6 @@ const Index = () => (
         I created an oracle network to produce semantic segmentation pseudo-labels for
         previously unseen data to reduce overall datatset labeling costs.
       </p>
-      <h3> Other Projects </h3>
-      <p>
-        At Rutgers, I started the
-        <a href="https://robotics.rutgers.edu/n2e-robotics/"> N2E Robotics Club </a>
-        where students teach hour long modules on robotics topics (computer vision, control
-        algos, ML, 3D printing, CAD, ROS, etc) to each other in a non-intimidating
-        environment from the ground up. The goal is to tear down the barrier to entry
-        for robotics so that it can be accessible for more people.
-      </p>
       <h3> Teaching </h3>
       <p>
         I&apos;ve TA-ed for the following courses in the Rutgers ECE department:
