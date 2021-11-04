@@ -1,37 +1,28 @@
 // TODO Add a couple lines about each project
+
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'N2E Robotics Club',
+    subtitle: '',
+    image: '/images/projects/N2E_Robotics.png',
+    link: 'https://robotics.rutgers.edu/n2er-workshops/',
+    date: '2021-1-11',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'In partnership with Professor Kristin Dana and the SOCRATES NSF NRT,'
+      + ' I have started the N2E Robotics club at Rutgers University. '
+      + 'N2E stands for novice to expert. Our goal is to have student '
+      + '"experts" teach robotics concepts to student "novices" from the '
+      + 'ground up in friendly, non-intimidating modular sessions that focus on hands-on learning.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Sentinel : A Distracted Driving Warning System',
+    subtitle: '',
+    link: 'https://drive.google.com/file/d/1oNp_9p4U2-4FzjEcErnu9DED6YJLsGmR/view?usp=sharing',
+    image: 'Team_27_Final_Report.png',
+    date: '2019-04',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
-  },
-  {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Created a system to identify driver distraction and drowsiness using computer vision techniques'
+      + ' that won third place in the Rutgers ECE Capstone Design Competition in 2019.',
   },
 ];
 
