@@ -15,7 +15,7 @@ const leadership = [
     company: 'Rutgers/HTHS',
     position: 'High Tech High School  Mentorship Program Mentor',
     link: '',
-    daterange: 'September 2019 - January 2020, September 2018 - January 2019',
+    daterange: 'September 2019 - January 2021',
     points: [
       'Mentored two female, high school seniors weekly in Professor Kristin Dana’s research lab at Rutgers University',
       'Created and facilitated programming to help them learn computer vision and machine learning techniques',
