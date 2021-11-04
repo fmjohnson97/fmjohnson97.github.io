@@ -42,7 +42,7 @@ const data = [
   },
   {
     key: 'graduation',
-    label: 'Time til Graduation in Years',
+    label: 'Years til Graduation',
     value: <Graduation />,
   },
   {
