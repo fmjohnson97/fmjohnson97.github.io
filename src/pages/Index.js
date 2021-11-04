@@ -33,7 +33,7 @@ const Index = () => (
       <p>
         My previous work deals with autonomous vehicle steering angle prediction.
         We created a network,
-        <a href="https://fmjohnson97.github.io/feudal-steering/"> Feudal Steering</a>,
+        <a href="https://fmjohnson97.github.io/feudalsteering/"> Feudal Steering</a>,
         that uses hierarchical networks to exploit the temporal abstraction inherent
         in driving tasks to make predicting steering angles from dash-cam images easier.
       </p>
