@@ -29,7 +29,7 @@ const About = () => (
       <h1> Secretary of Commerce Visits Rutgers </h1>
       <iframe title="Secretary of Commerce Speech" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRepFrankPallone%2Fvideos%2F835227274026204%2F&show_text=false&width=560&t=0" width="560" height="314" scrolling="no" frameBorder="0" allowFullScreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" />
       <p>
-        I spoke to <a href="https://www.rutgers.edu/news/rutgers-hosts-federal-leaders-research-tour">Secretary of Commerce Raimundo and Congressman Pallone </a>
+        I spoke to <a href="https://www.rutgers.edu/news/rutgers-hosts-federal-leaders-research-tour">Secretary of Commerce Raimondo and Congressman Pallone </a>
         about my research under the <a href="https://robotics.rutgers.edu"> SOCRATES NRT</a>.
         I also gave an address about the state of robotics research and federal funding
         that you can watch above.
