@@ -9,10 +9,22 @@ const positions = [
     points: [
       'Funded by the SOCRATES (Socially Cognizant Robotics for a Technologically Enhanced Society) NSF NRT grant',
       'Research socially cognizant robotic navigation and pedestrian social behavior characterization',
+      'Focused on socially cognizant robotic navigation and unsupervised learning of social behaviors for pedestrian trajectory prediction',
       'Conducted computer vision and reinforcement learning research in the lab of Professor Kristin Dana',
       'Researched hierarchical and multi-scale reinforcement learning for visuomotor skills',
       'Focused on the intersection of Feudal Reinforcement Learning and Autonomous Vehicles',
       'Research conducted under a grant from Lockheed Martin',
+    ],
+  },
+  {
+    company: 'Apple',
+    position: 'PhD Storytelling Intern',
+    link: 'https://www.apple.com',
+    daterange: 'May 2022 - August 2022',
+    points: [
+      'Wrote production level Objective-C code for the memories feature of the photos app',
+      'Increased personalization of the memories selection process using multimodal signal fusion',
+      'Networked across company departments to define project requirements and integrate multiple data streams',
     ],
   },
   {
@@ -33,6 +45,16 @@ const positions = [
     points: [
       'Developed baseline agents for the Darpa Machine Common Sense project',
       'Created an agent that uses graph networks and abductive reasoning to motivate environment exploration',
+    ],
+  },
+  {
+    company: 'Rutgers University',
+    position: 'Robotics & Computer Vision Guest Lecturer',
+    link: '',
+    daterange: 'November 2021',
+    points: [
+      'Taught a class of 50 students about socially cognizant robotics and pedestrian trajectory prediction',
+      'Demonstrated the importance of interdisciplinary research in creating more complete and long-lasting technical solutions',
     ],
   },
   {

@@ -5,17 +5,17 @@ const skills = [
   {
     title: 'Numpy',
     competency: 4,
-    category: ['Data Science', 'Python'],
+    category: ['Libraries/Frameworks'],
   },
   {
     title: 'HTML + SASS/SCSS/CSS',
     competency: 1,
-    category: ['Web Development', 'Languages'],
+    category: ['Languages'],
   },
   {
     title: 'Python',
     competency: 5,
-    category: ['Languages', 'Python'],
+    category: ['Languages'],
   },
   {
     title: 'C++',
@@ -33,29 +33,109 @@ const skills = [
     category: ['Languages'],
   },
   {
+    title: 'Objective-C',
+    competency: 2,
+    category: ['Languages'],
+  },
+  {
     title: 'Pandas',
     competency: 4,
-    category: ['Data Science', 'Python'],
+    category: ['Libraries/Frameworks'],
   },
   {
     title: 'Matplotlib',
     competency: 3,
-    category: ['Data Science', 'Python'],
+    category: ['Libraries/Frameworks'],
   },
   {
     title: 'Scikit-Learn',
     competency: 3,
-    category: ['Data Science', 'Python'],
+    category: ['Libraries/Frameworks'],
   },
   {
     title: 'OpenCV',
     competency: 4,
-    category: ['Data Science', 'Python'],
+    category: ['Libraries/Frameworks'],
   },
   {
     title: 'Pytorch',
     competency: 4,
-    category: ['Data Science', 'Python'],
+    category: ['Libraries/Frameworks'],
+  },
+  {
+    title: 'Torchvision',
+    competency: 4,
+    category: ['Libraries/Frameworks'],
+  },
+  {
+    title: 'Pillow',
+    competency: 2,
+    category: ['Libraries/Frameworks'],
+  },
+  {
+    title: 'CometML',
+    competency: 2,
+    category: ['Libraries/Frameworks'],
+  },
+  {
+    title: 'Git',
+    competency: 3,
+    category: ['Tools/Platforms'],
+  },
+  {
+    title: 'Linux',
+    competency: 4,
+    category: ['Tools/Platforms'],
+  },
+  {
+    title: 'Anaconda',
+    competency: 3,
+    category: ['Tools/Platforms'],
+  },
+  {
+    title: 'Microsoft Office',
+    competency: 5,
+    category: ['Tools/Platforms'],
+  },
+  {
+    title: 'Deep Learning',
+    competency: 4,
+    category: ['Topics'],
+  },
+  {
+    title: 'Machine Learning',
+    competency: 4,
+    category: ['Topics'],
+  },
+  {
+    title: 'Computer Vision',
+    competency: 4,
+    category: ['Topics'],
+  },
+  {
+    title: 'Human-Computer Interaction',
+    competency: 2,
+    category: ['Topics'],
+  },
+  {
+    title: 'Temporal Sequence Modeling',
+    competency: 3,
+    category: ['Topics'],
+  },
+  {
+    title: 'Socially Cognizant Robotics',
+    competency: 2,
+    category: ['Topics'],
+  },
+  {
+    title: 'Pedestrian Trajectory Prediction',
+    competency: 4,
+    category: ['Topics'],
+  },
+  {
+    title: 'Autonomous Driving',
+    competency: 3,
+    category: ['Topics'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 

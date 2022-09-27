@@ -15,7 +15,7 @@ const Index = () => (
         </div>
       </header>
       <p>
-        I am a third year Ph.D. student at Rutgers Univeristy in the ECE department,
+        I am a fourth year Ph.D. student at Rutgers Univeristy in the ECE department,
         where I focus on the intersection of computer vision, machine learning, robotics,
         and their impact on society. I&apos;m an NSF Fellow on the
         <a href="https://robotics.rutgers.edu/"> SOCRATES NRT</a>.
@@ -50,12 +50,16 @@ const Index = () => (
         I created an oracle network to produce semantic segmentation pseudo-labels for
         previously unseen data to reduce overall datatset labeling costs.
       </p>
+      <p>
+        At <a href="https://www.apple.com"> Apple </a> in 2022, I enhanced the photos memories experience
+        by making it more personalized to the user.
+      </p>
       <h3> Teaching </h3>
       <p>
         I&apos;ve TA-ed for the following courses in the Rutgers ECE department:
         <ul>
-          <li>Professionalism and Ethics - S&apos;20</li>
-          <li>Probability and Random Processes - S&apos;21</li>
+          <li>Professionalism and Ethics - 14:332:393 - S&apos;20</li>
+          <li>Probability and Random Processes - 14:332:226 - S&apos;21</li>
         </ul>
       </p>
     </article>

@@ -11,7 +11,7 @@ const degrees = [
     degree: 'B.S. Electrical & Computer Engineering',
     link: 'https://www.ece.rutgers.edu',
     year: 2019,
-    gpa: 3.5,
+    gpa: 3.45,
   },
 ];
 

@@ -1,5 +1,11 @@
 const courses = [
   {
+    title: 'Socially Cognizant Robotics Design',
+    number: '16:332:595',
+    link: 'https://robotics.rutgers.edu/curriculum/',
+    university: 'Rutgers University',
+  },
+  {
     title: 'Robotics & Society',
     number: '16:332:640',
     link: 'https://robotics.rutgers.edu/curriculum/',
