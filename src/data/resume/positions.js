@@ -7,13 +7,21 @@ const positions = [
     link: 'https://robotics.rutgers.edu',
     daterange: 'January 2019 - Present',
     points: [
-      'Funded by the SOCRATES (Socially Cognizant Robotics for a Technologically Enhanced Society) NSF NRT grant',
-      'Research socially cognizant robotic navigation and pedestrian social behavior characterization',
-      'Focused on socially cognizant robotic navigation and unsupervised learning of social behaviors for pedestrian trajectory prediction',
       'Conducted computer vision and reinforcement learning research in the lab of Professor Kristin Dana',
-      'Researched hierarchical and multi-scale reinforcement learning for visuomotor skills',
-      'Focused on the intersection of Feudal Reinforcement Learning and Autonomous Vehicles',
-      'Research conducted under a grant from Lockheed Martin',
+      'Researched socially cognizant robotic navigation Funded by the Reality Aware Networks NSF Grant',
+      'Researched unsupervised learning of social behaviors for pedestrian trajectory prediction funded by the SOCRATES (Socially Cognizant Robotics for a Technologically Enhanced Society) NSF NRT grant',
+      'Researched hierarchical and multi-scale reinforcement learning for visuomotor skills and the intersection of Feudal Reinforcement Learning and Autonomous Vehicles under a grant from Lockheed Martin',
+      'Other Work in vision-based, real-time cranberry albedo analysis for crop ripening predictions, overheating risk analysis, and high throughput phenotyping',
+    ],
+  },
+  {
+    company: 'Apple',
+    position: 'PhD Storytelling Intern',
+    link: 'https://www.apple.com',
+    daterange: 'May 2023 - August 2023',
+    points: [
+      'Led a cross-team effort that incorporated multiple device systems into the photos app for memories',
+      "Researched factors contributing to a users' connection to their photo library",
     ],
   },
   {
