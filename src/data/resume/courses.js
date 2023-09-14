@@ -1,5 +1,17 @@
 const courses = [
   {
+    title: 'Learning in Humans and Machines',
+    number: '16:185:601:01',
+    link: 'https://qiongzhang.github.io/LEARNINGINHUMANSMACHINES.PDF',
+    university: 'Rutgers University',
+  },
+  {
+    title: 'Proseminar in Cognitive Science',
+    number: '16:185:500',
+    link: 'https://ruccs.rutgers.edu/33-graduate/graduate-courses/645-graduate-courses-fall-2019',
+    university: 'Rutgers University',
+  },
+  {
     title: 'Socially Cognizant Robotics Design',
     number: '16:332:595',
     link: 'https://robotics.rutgers.edu/curriculum/',
