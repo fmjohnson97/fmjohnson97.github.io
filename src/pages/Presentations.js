@@ -23,7 +23,7 @@ const About = () => (
     <article className="post markdown" id="about">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/about">Presentations</Link></h2>
+          <h2 data-testid="heading"><Link to="/presentations">Presentations</Link></h2>
         </div>
       </header>
       <h1> Secretary of Commerce Visits Rutgers </h1>
