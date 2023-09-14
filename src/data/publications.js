@@ -4,7 +4,7 @@ const data = [
   {
     title: 'Feudal Steering: Hierarchical Learning for Steering Angle Prediction',
     subtitle: '',
-    link: 'http://fmjohnson97.github.io/feudalsteering',
+    link: '/feudalsteering',
     image: '/images/publications/feudalSteeringTeaser.gif',
     date: '2020-06',
     desc:
@@ -13,8 +13,8 @@ const data = [
   {
     title: 'Learning A Pedestrian Social Behavior Dictionary',
     subtitle: '',
-    link: 'http://fmjohnson97.github.io/socialbehaviordictionary',
-    image: '/images/publications/teaser.png',
+    link: '/socialbehaviordictionary',
+    image: '/images/publications/lpsbd_teaser.png',
     date: '2023-12',
     desc:
       '',
@@ -22,8 +22,8 @@ const data = [
   {
     title: 'Vision-Based Cranberry Crop Ripening Assessment',
     subtitle: '',
-    link: 'http://fmjohnson97.github.io/albedoanalysis',
-    image: '/images/publications/berry_varieties.png',
+    link: '/albedoanalysis',
+    image: '/images/publications/albana_berry_varieties.png',
     date: '2023-08',
     desc:
       '',

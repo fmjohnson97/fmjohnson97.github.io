@@ -18,21 +18,25 @@ const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
 const Presentations = lazy(() => import('./pages/Presentations'));
 const FeudalSteering = lazy(() => import('./pages/FeudalSteering'));
+const SocialBehaviorDictionary = lazy(() => import('./pages/SocialBehaviorDictionary'));
+const AlbedoAnalysis = lazy(() => import('./pages/AlbedoAnalysis'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
     <Suspense fallback={<Main />}>
-      <Switch>
-        <Route exact path="/" component={Index} />
-        <Route path="/publications" component={Publications} />
-        <Route path="/presentations" component={Presentations} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/stats" component={Stats} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/feudalsteering" component={FeudalSteering} />
-        <Route component={NotFound} status={404} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/publications" element={<Publications />} />
+        <Route path="/presentations" element={<Presentations />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/stats" element={<Stats />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/feudalsteering" element={<FeudalSteering />} />
+        <Route path="/socialbehaviordictionary" element={<SocialBehaviorDictionary />} />
+        <Route path="/albedoanalysis" element={<AlbedoAnalysis />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </Suspense>
   </BrowserRouter>
 );

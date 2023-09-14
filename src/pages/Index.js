@@ -33,7 +33,7 @@ const Index = () => (
         My previous work pertained to
         social behavior characterization and human-robot interaction under the
         <a href="https://robotics.rutgers.edu/"> SOCRATES NSF NRT</a>. We created a series of networks that
-        <a href="https://fmjohnson97.github.io/socialbehaviordictionary/"> learned a social behavior dictionary </a>
+        <a href="/socialbehaviordictionary"> learned a social behavior dictionary </a>
         from aerial images of pedestrians. With this dictionary, we analyzed space usage and social
         behavior patterns,as well as simplifying the pedestrian trajectory prediction problem in
         order to use simple MLPs to achieve near SOTA results.
@@ -41,13 +41,13 @@ const Index = () => (
       <p>
         My work with autonomous vehicle steering angle prediction.
         We created a network,
-        <a href="https://fmjohnson97.github.io/feudalsteering/"> Feudal Steering</a>,
+        <a href="/feudalsteering"> Feudal Steering</a>,
         that uses hierarchical networks to exploit the temporal abstraction inherent
         in driving tasks to make predicting steering angles from dash-cam images easier.
       </p>
       <p>
         I&apos;ve also done work on vision‑based, real‑time
-        <a href="https://fmjohnson97.github.io/albedoanalysis"> cranberry albedo analysis </a>
+        <a href="/albedoanalysis"> cranberry albedo analysis </a>
         for crop ripening predictions, overheating risk analysis, and high throughput phenotyping.
       </p>
       <h3> Internships </h3>

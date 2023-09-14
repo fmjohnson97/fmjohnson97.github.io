@@ -16,14 +16,15 @@ import positions from '../data/resume/positions';
 import leadership from '../data/resume/leadership';
 import { skills, categories } from '../data/resume/skills';
 
-const sections = [
-  'Education',
-  'Experience',
-  'Leadership',
-  'Skills',
-  'Courses',
-  'References',
-];
+// NOTE: sections are displayed in order defined.
+const sections = {
+  Education: () => <Education data={degrees} />,
+  Experience: () => <Experience data={positions} />,
+  Leadership: () => <Leadership data={leadership} />,
+  Skills: () => <Skills skills={skills} categories={categories} />,
+  Courses: () => <Courses data={courses} />,
+  References: () => <References />,
+};
 
 const Resume = () => (
   <Main
