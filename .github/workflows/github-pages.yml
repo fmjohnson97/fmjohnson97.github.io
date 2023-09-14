@@ -3,18 +3,21 @@ name: GitHub Pages
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 jobs:
-  depoy:
-    runs-on: ubuntu-latest
+  deployment:
+    runs-on: ubuntu-20.04
+    timeout-minutes: 5
+    environment: production
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         persist-credentials: false
-    - name: Use Node 14
-      uses: actions/setup-node@v1
+    - name: Setup Node
+      uses: actions/setup-node@v3
       with:
-        node-version: 14.x
+        node-version-file: '.nvmrc'
     - name: Install
       run: npm ci
     - name: Build and Deploy
@@ -24,7 +27,7 @@ jobs:
         # REACT_APP_GA_TRACKING_ID: UA-68649021-1
         # This is set automatically by github
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: | 
+      run: |
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/fmjohnson97/fmjohnson97.github.io

@@ -6,10 +6,18 @@ import dayjs from 'dayjs';
  */
 const data = [
   {
-    label: 'Last Updated On',
+    label: 'Last updated on',
     key: 'pushed_at',
     link: 'https://github.com/fmjohnson97/fmjohnson97.github.io/commits',
     format: (x) => dayjs(x).format('MMMM DD, YYYY'),
+  },
+  {
+    // TODO update this with a pre-commit hook
+    /* find . | grep ".js" | grep -vE ".min.js|node_modules|.git|.json" |
+    xargs -I file cat file | wc -l */
+    label: 'Lines of Javascript powering this website',
+    value: '2150',
+    link: 'https://github.com/mldangelo/personal-site/graphs/contributors',
   },
 ];
 
