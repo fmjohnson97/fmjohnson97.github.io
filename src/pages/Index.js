@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
+const linkStyle = { color: 'blue' };
+
 const Index = () => (
   <Main
     description={"Faith Johnson's personal website."}
@@ -12,6 +14,7 @@ const Index = () => (
         <div className="title">
           <h2 data-testid="heading"><Link to="/">About Me</Link></h2>
           <p> </p>
+          <h1 data-testid="heading">View my publications <Link style={linkStyle} to="/publications">here</Link></h1>
         </div>
       </header>
       <p>
@@ -39,8 +42,8 @@ const Index = () => (
         order to use simple MLPs to achieve near SOTA results.
       </p>
       <p>
-        My work with autonomous vehicle steering angle prediction.
-        We created a network,
+        In my work with autonomous vehicle steering angle prediction,
+        we created a network,
         <a href="/feudalsteering"> Feudal Steering</a>,
         that uses hierarchical networks to exploit the temporal abstraction inherent
         in driving tasks to make predicting steering angles from dash-cam images easier.
@@ -53,10 +56,13 @@ const Index = () => (
       <h3> Internships </h3>
       <p>
         I&apos;ve had the opportunity to work on several different
-        projects with other teams. At <a href="https://www.sri.com/computer-vision/"> SRI International </a>
-        in 2020, I created baseline agents for the
-        <a href="https://www.darpa.mil/program/machine-common-sense"> DARPA Machine Common Sense </a>
-        project.
+        projects with other teams. At <a href="https://www.apple.com"> Apple </a> in 2023, I led a cross‑team effort that incorporated
+        multiple device systems into the photos app for memories and researched factors contributing
+        to a users&apos; connection to their photo library.
+      </p>
+      <p>
+        At <a href="https://www.apple.com"> Apple </a> in 2022, I enhanced the photos memories experience
+        by making it more personalized to the user.
       </p>
       <p>
         At <a href="https://www.nvidia.com/en-us/research/#research-area"> Nvidia </a> in 2021,
@@ -64,13 +70,10 @@ const Index = () => (
         previously unseen data to reduce overall datatset labeling costs.
       </p>
       <p>
-        At <a href="https://www.apple.com"> Apple </a> in 2022, I enhanced the photos memories experience
-        by making it more personalized to the user.
-      </p>
-      <p>
-        At <a href="https://www.apple.com"> Apple </a> in 2023, I led a cross‑team effort that incorporated
-        multiple device systems into the photos app for memories and researched factors contributing
-        to a users&apos; connection to their photo library.
+        At <a href="https://www.sri.com/computer-vision/"> SRI International </a>
+        in 2020, I created baseline agents for the
+        <a href="https://www.darpa.mil/program/machine-common-sense"> DARPA Machine Common Sense </a>
+        project.
       </p>
       <h3> Teaching </h3>
       <p>

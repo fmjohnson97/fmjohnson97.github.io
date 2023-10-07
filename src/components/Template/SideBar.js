@@ -19,14 +19,14 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p> Hi, I&apos;m Faith. I am a third year, NSF Fellow, Ph.D. student studying under
+      <p> Hi, I&apos;m Faith. I am a fifth year, NSF Fellow, Ph.D. student studying under
         Professor Kristin Dana in the Rutgers University ECE department.
         My main focus is the intersection of computer vision,
         machine learning, and robotics. Contact me at faith.johnson@rutgers.edu
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/" className="button">About Me</Link>}
+          {window.location.pathname.endsWith('/') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/" className="button">About Me</Link>}
         </li>
       </ul>
     </section>

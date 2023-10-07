@@ -13,13 +13,14 @@ const Contact = lazy(() => import('./pages/Contact'));
 const Publications = lazy(() => import('./pages/Publications'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
-const Projects = lazy(() => import('./pages/Projects'));
+// const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
 const Presentations = lazy(() => import('./pages/Presentations'));
 const FeudalSteering = lazy(() => import('./pages/FeudalSteering'));
 const SocialBehaviorDictionary = lazy(() => import('./pages/SocialBehaviorDictionary'));
 const AlbedoAnalysis = lazy(() => import('./pages/AlbedoAnalysis'));
+const VisualNavigation = lazy(() => import('./pages/VisualNavigation'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -28,13 +29,13 @@ const App = () => (
         <Route path="/" element={<Index />} />
         <Route path="/publications" element={<Publications />} />
         <Route path="/presentations" element={<Presentations />} />
-        <Route path="/projects" element={<Projects />} />
         <Route path="/stats" element={<Stats />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/feudalsteering" element={<FeudalSteering />} />
         <Route path="/socialbehaviordictionary" element={<SocialBehaviorDictionary />} />
         <Route path="/albedoanalysis" element={<AlbedoAnalysis />} />
+        <Route path="/visualnavigation" element={<VisualNavigation />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
