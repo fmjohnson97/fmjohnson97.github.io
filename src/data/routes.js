@@ -9,7 +9,7 @@ const routes = [
     path: '/resume',
   },
   {
-    label: 'Publications',
+    label: 'Publications and Projects',
     path: '/publications',
   },
   {

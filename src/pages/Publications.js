@@ -16,6 +16,7 @@ const Projects = () => (
         <div className="title">
           <h2 data-testid="heading"><Link to="/publications">Publications and Projects</Link></h2>
           <p> </p>
+          <p>Find my Google Scholar <a href="https://scholar.google.com/citations?user=h2bQ8o4AAAAJ&hl=en">here</a>.</p>
         </div>
       </header>
       {data.map((publications) => (

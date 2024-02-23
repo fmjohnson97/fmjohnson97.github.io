@@ -21,6 +21,7 @@ const FeudalSteering = lazy(() => import('./pages/FeudalSteering'));
 const SocialBehaviorDictionary = lazy(() => import('./pages/SocialBehaviorDictionary'));
 const AlbedoAnalysis = lazy(() => import('./pages/AlbedoAnalysis'));
 const VisualNavigation = lazy(() => import('./pages/VisualNavigation'));
+const HumNavData = lazy(() => import('./pages/HumanNavDataset'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -36,6 +37,7 @@ const App = () => (
         <Route path="/socialbehaviordictionary" element={<SocialBehaviorDictionary />} />
         <Route path="/albedoanalysis" element={<AlbedoAnalysis />} />
         <Route path="/visualnavigation" element={<VisualNavigation />} />
+        <Route path="/humannavdataset" element={<HumNavData />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>

@@ -22,7 +22,7 @@ const Graduation = () => {
 
   const tickGrad = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
-    const gradTime = new Date('2024-12-15T10:30:00');
+    const gradTime = new Date('2024-12-18T10:30:00');
     setGrad(((gradTime - Date.now()) / divisor).toFixed(11));
   };
   useEffect(() => {
@@ -53,7 +53,7 @@ const data = [
   {
     key: 'countries',
     label: 'Countries Visited',
-    value: 9,
+    value: 12,
     link: '',
   },
   {

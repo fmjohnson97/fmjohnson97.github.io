@@ -29,8 +29,16 @@ const Index = () => (
       </p>
       <h3> Research </h3>
       <p>
-        My current research focus deals with socially cognizant robotic navigation and
-        latent topological maps.
+        My current research deals with socially cognizant robotic navigation and latent topological
+        maps. My most recent work, <Link to="/visualnavigation"> Feudal Networks for Visual Navigation</Link>,
+        creates a feudal network for visual navigation with a three level hierarchy that is
+        evaluated on the image goal task. The high level manager acts as a memory module and
+        creates a memory proxy map (MPM) to keep track of historical agent locations. The mid
+        level manager (WayNet) mimics human navigation policies by predicting waypoints to guide
+        agent exploration. The low level worker uses this waypoint to execute low level actions
+        in the environment. We train this network with our <Link to="/humannavdataset"> Human Navigation Dataset</Link>,
+        a new dataset that collects observation and human point-click pairs as a human operator
+        explores simulated environments using Habitat AI.
       </p>
       <p>
         My previous work pertained to
@@ -77,7 +85,15 @@ const Index = () => (
       </p>
       <h3> Teaching </h3>
       <p>
-        I&apos;ve given guest lectures for Robotics and Computer Vision (ECE472) in 2019 and 2021.
+        I&apos;ve given guest lectures for the following courses in the Rutgers University ECE
+        department:
+        <ul>
+          <li>
+            Introduction to Robotics and Computer Vision - (14:332:472) - F&apos;19 and F&apos;21
+          </li>
+          <li> Robotics and Humanity - (01:090:101) - S&apos;24 </li>
+          <li> Socially Cognizant Robotics - (16:332:590) - S&apos;23 and S&apos;24 </li>
+        </ul>
         Additionally, I&apos;ve TA-ed for the following courses in the Rutgers ECE department:
         <ul>
           <li>Professionalism and Ethics - 14:332:393 - S&apos;20</li>

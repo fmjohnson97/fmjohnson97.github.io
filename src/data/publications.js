@@ -2,20 +2,20 @@
 
 const data = [
   {
-    title: 'Hierarchical Visual Navigation with Latent Topological Maps',
+    title: 'Feudal Networks for Visual Navigation',
     subtitle: '',
     link: '/visualnavigation',
-    image: '/images/publications/RutgersDay007.png',
-    date: '2024-3',
+    image: '/images/publications/FeudalNavigationFrameworkFigure3.png',
+    date: '2024-1',
     desc:
       '',
   },
   {
-    title: 'Vision-Based Cranberry Crop Ripening Assessment',
+    title: 'A Landmark-Aware Visual Navigation Dataset',
     subtitle: '',
-    link: '/albedoanalysis',
-    image: '/images/publications/albana_berry_varieties.png',
-    date: '2023-08',
+    link: '/humannavdataset',
+    image: '/images/publications/landmark-5.drawio.png',
+    date: '2023-10',
     desc:
       '',
   },
@@ -24,7 +24,7 @@ const data = [
     subtitle: '',
     link: '/socialbehaviordictionary',
     image: '/images/publications/lpsbd_teaser.png',
-    date: '2023-12',
+    date: '2023-11',
     desc:
       '',
   },
@@ -34,6 +34,15 @@ const data = [
     link: '/feudalsteering',
     image: '/images/publications/feudalSteeringTeaser.gif',
     date: '2020-06',
+    desc:
+      '',
+  },
+  {
+    title: 'Vision-Based Cranberry Crop Ripening Assessment',
+    subtitle: '',
+    link: '/albedoanalysis',
+    image: '/images/publications/albana_berry_varieties.png',
+    date: '2023-08',
     desc:
       '',
   },
