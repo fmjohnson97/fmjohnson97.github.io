@@ -40,7 +40,7 @@ const Job = ({
 
 Job.propTypes = {
   data: PropTypes.shape({
-    name: PropTypes.string.isRequired,
+    name: PropTypes.string,
     position: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
     startDate: PropTypes.string.isRequired,

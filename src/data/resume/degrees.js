@@ -7,7 +7,7 @@ const degrees = [
     gpa: 4.0,
   },
   {
-    school: 'Rutgers University',
+    school: 'Rutgers University ',
     degree: 'B.S. Electrical & Computer Engineering',
     link: 'https://www.ece.rutgers.edu',
     year: 2019,

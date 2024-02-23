@@ -16,7 +16,7 @@ const positions = [
   },
   {
     name: 'Apple',
-    position: 'PhD Storytelling Intern',
+    position: ' PhD Storytelling Intern',
     url: 'https://www.apple.com',
     startDate: '2023-5-1',
     endDate: '2023-8-31',
