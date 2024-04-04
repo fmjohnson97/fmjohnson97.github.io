@@ -8,7 +8,12 @@ const skills = [
     category: ['Libraries/Frameworks'],
   },
   {
-    title: 'HTML + SASS/SCSS/CSS',
+    title: 'HabitatSim',
+    competency: 4,
+    category: ['Libraries/Frameworks'],
+  },
+  {
+    title: 'HTML + CSS + React',
     competency: 1,
     category: ['Languages'],
   },
@@ -29,12 +34,12 @@ const skills = [
   },
   {
     title: 'MATLAB',
-    competency: 3,
+    competency: 2,
     category: ['Languages'],
   },
   {
     title: 'Objective-C',
-    competency: 2,
+    competency: 3,
     category: ['Languages'],
   },
   {
@@ -74,7 +79,7 @@ const skills = [
   },
   {
     title: 'CometML',
-    competency: 2,
+    competency: 1,
     category: ['Libraries/Frameworks'],
   },
   {
@@ -84,12 +89,12 @@ const skills = [
   },
   {
     title: 'Linux',
-    competency: 4,
+    competency: 5,
     category: ['Tools/Platforms'],
   },
   {
     title: 'Anaconda',
-    competency: 3,
+    competency: 4,
     category: ['Tools/Platforms'],
   },
   {
@@ -124,17 +129,7 @@ const skills = [
   },
   {
     title: 'Socially Cognizant Robotics',
-    competency: 2,
-    category: ['Topics'],
-  },
-  {
-    title: 'Pedestrian Trajectory Prediction',
     competency: 4,
-    category: ['Topics'],
-  },
-  {
-    title: 'Autonomous Driving',
-    competency: 3,
     category: ['Topics'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));

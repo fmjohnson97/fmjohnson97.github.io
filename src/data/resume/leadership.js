@@ -24,7 +24,7 @@ const leadership = [
     ],
   },
   {
-    company: 'Theta Tau - Omicron Delta Chapter',
+    name: 'Theta Tau - Omicron Delta Chapter',
     position: 'Treasurer',
     link: 'https://thetatau.rutgers.edu',
     startDate: '2017-12-1',
@@ -35,7 +35,7 @@ const leadership = [
     ],
   },
   {
-    company: 'Theta Tau - Omicron Delta Chapter',
+    name: 'Theta Tau - Omicron Delta Chapter',
     position: 'Dance Marathon Liaison',
     link: 'https://thetatau.rutgers.edu',
     startDate: '2017-9-1',

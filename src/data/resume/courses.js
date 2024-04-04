@@ -29,12 +29,12 @@ const courses = [
     link: 'https://robotics.rutgers.edu/curriculum/',
     university: 'Rutgers University ',
   },
-  {
-    title: 'Stochastic Signals & Systems',
-    number: '16:332:541',
-    link: 'http://www.winlab.rutgers.edu/~ryates/ece541/',
-    university: 'Rutgers University',
-  },
+  //  {
+  //    title: 'Stochastic Signals & Systems',
+  //    number: '16:332:541',
+  //    link: 'http://www.winlab.rutgers.edu/~ryates/ece541/',
+  //    university: 'Rutgers University',
+  //  },
   {
     title: 'Machine Vision',
     number: '16:332:561',

@@ -141,7 +141,7 @@ const Contact = () => (
         the most suitable for the memory proxy map.
       </p>
       <div> <p> </p></div>
-      <h1> FeudalNav Outperforms Baselines and SOTA </h1>
+      <h1> Ablation Study </h1>
       <img src={`${PUBLIC_URL}/images/publications/feudalnavAblationTable.png`} alt="" width="90%" />
       <p>
         We conduct an ablation study showing the effect of each module in FeudalNav on overall
