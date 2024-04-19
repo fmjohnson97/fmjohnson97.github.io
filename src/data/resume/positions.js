@@ -7,8 +7,8 @@ const positions = [
     url: 'https://robotics.rutgers.edu',
     startDate: '2019-1-15',
     highlights: [
-      'Conducted computer vision and reinforcement learning research in the lab of Professor Kristin Dana',
-      'Researched socially cognizant robotic navigation Funded by the Reality Aware Networks NSF Grant',
+      'Conducted computer vision and machine learning research in the lab of Professor Kristin Dana',
+      'Researched socially cognizant robotic visual navigation and latent space representation learning funded by the Reality Aware Networks NSF Grant',
       'Researched unsupervised learning of social behaviors for pedestrian trajectory prediction funded by the SOCRATES (Socially Cognizant Robotics for a Technologically Enhanced Society) NSF NRT grant',
       'Researched hierarchical and multi-scale reinforcement learning for visuomotor skills and the intersection of Feudal Reinforcement Learning and Autonomous Vehicles under a grant from Lockheed Martin',
       'Other Work in vision-based, real-time cranberry albedo analysis for crop ripening predictions, overheating risk analysis, and high throughput phenotyping',

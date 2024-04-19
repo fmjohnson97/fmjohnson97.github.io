@@ -27,6 +27,12 @@ const Index = () => (
         Before this, I got my bachelor&apos;s degree in Electrical and Computer
         Engineering also from Rutgers University.
       </p>
+      <h3> Awards </h3>
+      <p>
+        In May 2024, I received the <a href="http://studentawards.rutgers.edu/awards/">Chancellor&apos;s Leadership Award </a>
+        for my involvement on campus. In May 2019, my team and I won third place in the
+        Rutgers ECE Department <a href="https://www.ece.rutgers.edu/news/ece-capstone-design-2019">Capstone Design Showcase</a>.
+      </p>
       <h3> Research </h3>
       <p>
         My current research deals with socially cognizant robotic navigation and latent topological
