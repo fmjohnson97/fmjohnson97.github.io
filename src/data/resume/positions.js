@@ -2,16 +2,39 @@
 
 const positions = [
   {
+    name: 'Apple',
+    position: 'Software Engineer - Level 3',
+    url: 'https://www.apple.com',
+    startDate: '2025-2-3',
+    highlights: [
+      'Designed and shipped AI-powered features across multiple major consumer software platforms, spanning several OS releases',
+      'Led end-to-end development of a multi-agent LLM pipeline including model integration, prompt engineering, tool/context infrastructure, and content safety filtering',
+      'Built retrieval, planning, and evaluation infrastructure for agentic search systems, and drove reliability improvements}',
+    ],
+  },
+  {
     name: 'Rutgers University',
     position: 'NSF Fellow & Graduate Research Assistant',
     url: 'https://robotics.rutgers.edu',
     startDate: '2019-1-15',
+    endDate: '2025-1-10',
     highlights: [
       'Conducted computer vision and machine learning research in the lab of Professor Kristin Dana',
       'Researched socially cognizant robotic visual navigation and latent space representation learning funded by the Reality Aware Networks NSF Grant',
       'Researched unsupervised learning of social behaviors for pedestrian trajectory prediction funded by the SOCRATES (Socially Cognizant Robotics for a Technologically Enhanced Society) NSF NRT grant',
       'Researched hierarchical and multi-scale reinforcement learning for visuomotor skills and the intersection of Feudal Reinforcement Learning and Autonomous Vehicles under a grant from Lockheed Martin',
       'Other Work in vision-based, real-time cranberry albedo analysis for crop ripening predictions, overheating risk analysis, and high throughput phenotyping',
+    ],
+  },
+  {
+    name: 'Apple',
+    position: ' PhD Storytelling Intern',
+    url: 'https://www.apple.com',
+    startDate: '2024-5-1',
+    endDate: '2024-8-31',
+    highlights: [
+      'Introduced emotional consistency to and increased the diversity of the memory creation pipeline with prompt tuning',
+      'Chosen out of the entire pool of interns to presented their summer project to the SVP of Software Engineering',
     ],
   },
   {

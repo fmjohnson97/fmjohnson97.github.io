@@ -7,31 +7,34 @@ const { PUBLIC_URL } = process.env;
 
 const Contact = () => (
   <Main
-    title="A Landmark-Aware Visual Navigation Dataset"
+    title="A Landmark-Aware Visual Navigation Dataset for Map Representation Learning"
     description=""
   >
     <article className="post" id="contact">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/humannavdataset">A Landmark-Aware Visual Navigation Dataset</Link></h2>
-          <p> Click <a href="https://arxiv.org/abs/2402.14281"> here</a> to read the paper.</p>
+          <h2 data-testid="heading"><Link to="/humannavdataset">A Landmark-Aware Visual Navigation Dataset for Map Representation Learning</Link></h2>
+          <p> Click <a href="https://par.nsf.gov/servlets/purl/10584740"> here</a> to read the paper.</p>
         </div>
       </header>
       <h1> Abstract </h1>
       <p>
-        Map representation learned by expert demonstrations has shown promising research value.
-        However, recent advancements in the visual navigation field face challenges due to the
-        lack of human datasets in the real world for efficient supervised representation learning
-        of the environments. We present a Landmark-Aware Visual Navigation (LAVN) dataset to allow
-        for supervised learning of human-centric exploration policies and map building. We collect
-        RGB observation and human point-click pairs as a human annotator explores virtual and
-        real-world environments with the goal of full coverage exploration of the space. The human
-        annotators also provide distinct landmark examples along each trajectory, which we intuit
-        will simplify the task of map or graph building and localization. These human point-clicks
-        serve as direct supervision for waypoint prediction when learning to explore in
-        environments. Our dataset covers a wide spectrum of scenes, including rooms in indoor
-        environments, as well as walkways outdoors. Dataset is available at
-        DOI: 10.5281/zenodo.10608067.
+        Map representations learned by expert demonstrations have shown promising
+        research value. However, the field of visual navigation still faces challenges
+        due to the lack of real-world human-navigation datasets that can support
+        efficient, supervised, representation learning of environments. We present a
+        Landmark-Aware Visual Navigation (LAVN) dataset to allow for supervised learning
+        of human-centric exploration policies and map building. We collect RGBD observation
+        and human point-click pairs as a human annotator explores virtual and real-world
+        environments with the goal of full coverage exploration of the space. The human
+        annotators also provide distinct landmark examples along each trajectory, which we
+        intuit will simplify the task of map or graph building and localization. These
+        human point-clicks serve as direct supervision for waypoint prediction when
+        learning to explore in environments. Our dataset covers a wide spectrum of scenes,
+        including rooms in indoor environments, as well as walkways outdoors. We release
+        our dataset with detailed documentation at
+        https://huggingface.co/datasets/visnavdataset/lavn (DOI:10.57967/hf/2386) and a
+        plan for long-term preservation.
       </p>
       <div> <p> </p></div>
       <h1> Overview </h1>

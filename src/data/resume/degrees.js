@@ -3,7 +3,7 @@ const degrees = [
     school: 'Rutgers University',
     degree: 'Ph.D. Computer Engineering',
     link: 'https://www.ece.rutgers.edu',
-    year: 2024,
+    year: 2025,
     gpa: 4.0,
   },
   {

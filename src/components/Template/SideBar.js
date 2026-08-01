@@ -13,16 +13,17 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Faith Johnson</h2>
-        <p><a href="mailto:faith.johnson@rutgers.edu">faith.johnson@rutgers.edu</a></p>
+        <p><a href="mailto:fmjohnson97@aol.com">fmjohnson97@aol.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p> Hi, I&apos;m Faith. I am a fifth year, NSF Fellow, Ph.D. student studying under
-        Professor Kristin Dana in the Rutgers University ECE department.
-        My main focus is the intersection of computer vision,
-        machine learning, and robotics. Contact me at faith.johnson@rutgers.edu
+      <p> Hi, I&apos;m Faith. I am a software engineer on the Photos Intelligence Team at Apple
+        responsible for the photos memory feature and other AI advancements in the photos domain.
+        I previously was a NSF Fellow and got my Ph.D. studying under Professor Kristin Dana in
+        the Rutgers University ECE department where my main focus was the intersection of computer
+        vision, machine learning, and robotics. Contact me at fmjohnson97@aol.com
       </p>
       <ul className="actions">
         <li>

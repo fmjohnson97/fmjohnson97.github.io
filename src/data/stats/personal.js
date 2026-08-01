@@ -23,7 +23,7 @@ const Graduation = () => {
   const tickGrad = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
     const gradTime = new Date('2024-12-18T10:30:00');
-    setGrad(((gradTime - Date.now()) / divisor).toFixed(11));
+    setGrad(((Date.now() - gradTime) / divisor).toFixed(11));
   };
   useEffect(() => {
     const timerGrad = setInterval(() => tickGrad(), 25);
@@ -42,24 +42,24 @@ const data = [
   },
   {
     key: 'graduation',
-    label: 'Years til Graduation',
+    label: 'Years Since PhD Graduation',
     value: <Graduation />,
   },
   {
     key: 'location',
-    label: 'Current City',
-    value: 'New Brunswick, NJ',
+    label: 'Current Location',
+    value: 'San Francisco Bay Area',
   },
   {
     key: 'countries',
     label: 'Countries Visited',
-    value: 12,
+    value: 13,
     link: '',
   },
   {
     key: 'states',
     label: 'States Visited',
-    value: 18,
+    value: 19,
     link: '',
   },
 ];

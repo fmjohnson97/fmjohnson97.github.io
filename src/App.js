@@ -20,6 +20,7 @@ const Presentations = lazy(() => import('./pages/Presentations'));
 const FeudalSteering = lazy(() => import('./pages/FeudalSteering'));
 const SocialBehaviorDictionary = lazy(() => import('./pages/SocialBehaviorDictionary'));
 const AlbedoAnalysis = lazy(() => import('./pages/AlbedoAnalysis'));
+const SimpleNav = lazy(() => import('./pages/SimpleNav'));
 const VisualNavigation = lazy(() => import('./pages/VisualNavigation'));
 const HumNavData = lazy(() => import('./pages/HumanNavDataset'));
 
@@ -36,6 +37,7 @@ const App = () => (
         <Route path="/feudalsteering" element={<FeudalSteering />} />
         <Route path="/socialbehaviordictionary" element={<SocialBehaviorDictionary />} />
         <Route path="/albedoanalysis" element={<AlbedoAnalysis />} />
+        <Route path="/simpleNav" element={<SimpleNav />} />
         <Route path="/visualnavigation" element={<VisualNavigation />} />
         <Route path="/humannavdataset" element={<HumNavData />} />
         <Route path="*" element={<NotFound />} />

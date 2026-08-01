@@ -18,14 +18,19 @@ const Index = () => (
         </div>
       </header>
       <p>
-        I am a fifth year Ph.D. student at Rutgers Univeristy in the ECE department,
-        where I focus on the intersection of computer vision, machine learning, robotics,
-        and their impact on society. I&apos;m currently an NSF Fellow on the Reality Aware Networks
-        project. I used to be an NSF Fellow on the
-        <a href="https://robotics.rutgers.edu/"> SOCRATES NRT</a>. My advisor is
+        I am currently a software engineer at Apple on the Photos Intelligence team where we
+        designed and ship AI-powered features in the Photos app and across multiple major consumer
+        software platforms and develop multi-agent LLM pipelines.
+      </p>
+      <p>
+        I graduated with my PhD in Jan 2025 from Rutgers Univeristy in the ECE department,
+        where I focused on the intersection of computer vision, machine learning, robotics,
+        and their impact on society. I was an NSF Fellow on the Reality Aware Networks
+        project, and I used to be an NSF Fellow on the
+        <a href="https://robotics.rutgers.edu/"> SOCRATES NRT</a>. My advisor was
         <a href="https://www.ece.rutgers.edu/~kdana/"> Professor Kristin Dana</a>.
         Before this, I got my bachelor&apos;s degree in Electrical and Computer
-        Engineering also from Rutgers University.
+        Engineering also from Rutgers University in 2019.
       </p>
       <h3> Awards </h3>
       <p>
@@ -35,9 +40,10 @@ const Index = () => (
       </p>
       <h3> Research </h3>
       <p>
-        My current research deals with socially cognizant robotic navigation and latent topological
-        maps. My most recent work, <Link to="/visualnavigation"> Feudal Networks for Visual Navigation</Link>,
-        creates a feudal network for visual navigation with a three level hierarchy that is
+        My PhD research dealt with socially cognizant robotic navigation and latent topological
+        maps. The culminating project of my PhD,<Link to="/simpleNav"> A Simple Framework for Visual Navigation </Link>
+        and <Link to="/visualnavigation"> Feudal Networks for Visual Navigation</Link>,
+        created a feudal network for visual navigation with a three level hierarchy that is
         evaluated on the image goal task. The high level manager acts as a memory module and
         creates a memory proxy map (MPM) to keep track of historical agent locations. The mid
         level manager (WayNet) mimics human navigation policies by predicting waypoints to guide
@@ -69,8 +75,14 @@ const Index = () => (
       </p>
       <h3> Internships </h3>
       <p>
-        I&apos;ve had the opportunity to work on several different
-        projects with other teams. At <a href="https://www.apple.com"> Apple </a> in 2023, I led a cross‑team effort that incorporated
+        I&apos;ve had the opportunity to work on several different projects with other teams.
+        At <a href="https://www.apple.com"> Apple </a> in 2024, I introduced emotional consistency to
+        and increased the diversity of the photos memory creation pipeline with prompt tuning,
+        and was chosen out of the entire pool of interns to presented their summer project to
+        the SVP of Software Engineering.
+      </p>
+      <p>
+        At <a href="https://www.apple.com"> Apple </a> in 2023, I led a cross‑team effort that incorporated
         multiple device systems into the photos app for memories and researched factors contributing
         to a users&apos; connection to their photo library.
       </p>

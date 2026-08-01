@@ -2,25 +2,43 @@
 
 const data = [
   {
-    title: 'Feudal Networks for Visual Navigation',
+    title: 'A Simple Framework for Visual Navigation - CVPR 2026',
     subtitle: '',
-    link: '/visualnavigation',
-    image: '/images/publications/FeudalNavigationFrameworkFigure3.png',
-    date: '2024-1',
+    link: '/simpleNav',
+    image: '/images/publications/simpleNav.png',
+    date: '2026-6',
     desc:
       '',
   },
   {
-    title: 'A Landmark-Aware Visual Navigation Dataset',
+    title: 'A Landmark-Aware Visual Navigation Dataset for Map Representation Learning - HRI 2025',
     subtitle: '',
     link: '/humannavdataset',
     image: '/images/publications/landmark-5.drawio.png',
-    date: '2023-10',
+    date: '2025-3',
     desc:
       '',
   },
   {
-    title: 'Learning A Pedestrian Social Behavior Dictionary',
+    title: 'Agtech Framework for Cranberry-Ripening Analysis Using Vision Foundation Models - WACV 2025',
+    subtitle: '',
+    link: '/albedoanalysis',
+    image: '/images/publications/albana_berry_varieties.png',
+    date: '2025-02',
+    desc:
+      '',
+  },
+  {
+    title: 'Feudal Networks for Visual Navigation - CVPR 2024 Embodied AI Workshop',
+    subtitle: '',
+    link: '/visualnavigation',
+    image: '/images/publications/FeudalNavigationFrameworkFigure3.png',
+    date: '2024-6',
+    desc:
+      '',
+  },
+  {
+    title: 'Learning A Pedestrian Social Behavior Dictionary - BMVC 2023',
     subtitle: '',
     link: '/socialbehaviordictionary',
     image: '/images/publications/lpsbd_teaser.png',
@@ -29,20 +47,11 @@ const data = [
       '',
   },
   {
-    title: 'Feudal Steering: Hierarchical Learning for Steering Angle Prediction',
+    title: 'Feudal Steering: Hierarchical Learning for Steering Angle Prediction - CVPR 2020 Workshop on Autonomous Driving',
     subtitle: '',
     link: '/feudalsteering',
     image: '/images/publications/feudalSteeringTeaser.gif',
     date: '2020-06',
-    desc:
-      '',
-  },
-  {
-    title: 'Vision-Based Cranberry Crop Ripening Assessment',
-    subtitle: '',
-    link: '/albedoanalysis',
-    image: '/images/publications/albana_berry_varieties.png',
-    date: '2023-08',
     desc:
       '',
   },

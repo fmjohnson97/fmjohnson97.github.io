@@ -17,7 +17,7 @@ const data = [
     icon: faLinkedinIn,
   },
   {
-    link: 'mailto:faith.johnson@rutgers.edu',
+    link: 'mailto:fmjohnson97@aol.com',
     label: 'Email',
     icon: faEnvelope,
   },

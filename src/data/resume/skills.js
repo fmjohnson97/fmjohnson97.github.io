@@ -114,12 +114,12 @@ const skills = [
   },
   {
     title: 'Computer Vision',
-    competency: 4,
+    competency: 5,
     category: ['Topics'],
   },
   {
     title: 'Human-Computer Interaction',
-    competency: 2,
+    competency: 3,
     category: ['Topics'],
   },
   {
@@ -129,8 +129,18 @@ const skills = [
   },
   {
     title: 'Socially Cognizant Robotics',
-    competency: 4,
+    competency: 5,
     category: ['Topics'],
+  },
+  {
+    title: 'Swift',
+    competency: 4,
+    category: ['Languages'],
+  },
+  {
+    title: 'Claude',
+    competency: 5,
+    category: ['AI Agents'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
