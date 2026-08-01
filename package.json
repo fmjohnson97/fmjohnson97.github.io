@@ -8,7 +8,7 @@
     "url": "https://github.com/fmjohnson97/fmjohnson97.gituhub.io"
   },
   "engines": {
-    "node": ">=16.x"
+    "node": ">=24.x"
   },
   "scripts": {
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.22.15",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-env": "^7.22.10",
     "@babel/preset-react": "^7.22.5",
     "@testing-library/jest-dom": "^5.17.0",

@@ -18,7 +18,7 @@ Your contributions are warmly welcomed! If you wish to contribute, please review
 
 ## 🔧 Dependencies
 
-Ensure you have [node](https://nodejs.org/) >= v16. Optionally, use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) to manage node versions.
+Ensure you have [node](https://nodejs.org/) >= v24. Optionally, use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) to manage node versions.
 
 ## 🚀 Setup and Running
 
