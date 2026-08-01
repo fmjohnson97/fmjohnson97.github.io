@@ -7,7 +7,7 @@ const linkStyle = { color: 'blue' };
 
 const Index = () => (
   <Main
-    description={"Faith Johnson's personal website."}
+    description="Faith Johnson's personal website."
   >
     <article className="post" id="index">
       <header>
