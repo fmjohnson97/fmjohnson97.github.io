@@ -14,7 +14,7 @@
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
     "build": "rimraf ./build && react-scripts build",
     "lint": "eslint \"**/*.js\"",
-    "predeploy": "npm run build && react-snap",
+    "predeploy": "npm run build && node scripts/prerender.js",
     "start": "react-scripts start",
     "test": "npx jest"
   },
@@ -47,7 +47,8 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-react": "^7.33.2",
-    "react-snap": "^1.23.0",
+    "express": "^4.21.2",
+    "puppeteer": "^25.4.0",
     "rimraf": "^5.0.1",
     "sass": "^1.66.1",
     "source-map-explorer": "^2.5.3"
@@ -66,8 +67,5 @@
   },
   "overrides": {
     "@babel/plugin-proposal-private-property-in-object": "npm:@babel/plugin-transform-private-property-in-object@^7.23.4"
-  },
-  "reactSnap": {
-    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"]
   }
 }

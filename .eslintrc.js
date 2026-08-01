@@ -41,4 +41,12 @@ module.exports = {
       return: true,
     }],
   },
+  overrides: [
+    {
+      files: ['scripts/**/*.js'],
+      rules: {
+        'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+      },
+    },
+  ],
 };
